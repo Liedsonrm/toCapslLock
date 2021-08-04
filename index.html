@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toCapslock</title>
+</head>
+
+<style>
+    #copyfrom{
+        color: transparent;
+        background-color: transparent;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0;
+        text-decoration: none;
+        height: 0px;
+    }
+
+    #copyfrom::selection{
+        color: transparent;
+        background-color: transparent;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0;
+        text-decoration: none;
+        height: 0px;
+
+    }
+</style>
+
+<body>
+    <h1>
+        toCapsLock
+    </h1>
+
+    <input id="text" type="text">
+    <button id="submit" type="submit">tranform</button>
+    <div id="result"></div> <button id="copy">copy</button>
+    <input id="copyfrom" class='copyfrom' tabindex='-1' aria-hidden='true'>
+    
+</body>
+
+<script src="./script.js"></script>
+
+</html>

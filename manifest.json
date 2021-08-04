@@ -1,0 +1,14 @@
+{
+
+    "name": "toCapslock" ,
+    "version": "1.0.0",
+    "description": "Colocando tudo em caixa alta!",
+    "browser_action": {
+        "default_popup": "index.html"
+    },
+    "manifest_version": 2
+
+
+
+
+}
